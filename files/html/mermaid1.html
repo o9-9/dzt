@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<!-- saved from url=(0161)https://viewscreen.githubusercontent.com/markdown/mermaid?docs_host=https%3A%2F%2Fdocs.github.com&color_mode=dark#dc6c9220-ae3e-40a3-897b-99ddd356c9a1-fullscreen -->
+<html data-color-mode="dark" data-dark-theme="dark" data-light-theme="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Render</title>
+    
+    <meta name="referrer" content="never">
+    <link rel="stylesheet" href="./mermaid-821d06b72982dbe3ebf0.css">
+    <script src="./mermaidMarkdown-821d06b72982dbe3ebf0.js.download" type="text/javascript"></script>
+  <style data-id="immersive-translate-input-injected-css">.immersive-translate-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2147483647;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.immersive-translate-attach-loading::after {
+  content: " ";
+
+  --loading-color: #f78fb6;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  margin: 12px auto;
+  position: relative;
+  color: white;
+  left: -100px;
+  box-sizing: border-box;
+  animation: immersiveTranslateShadowRolling 1.5s linear infinite;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-2000%, -50%);
+  z-index: 100;
+}
+
+.immersive-translate-loading-spinner {
+  vertical-align: middle !important;
+  width: 10px !important;
+  height: 10px !important;
+  display: inline-block !important;
+  margin: 0 4px !important;
+  border: 2px rgba(221, 244, 255, 0.6) solid !important;
+  border-top: 2px rgba(0, 0, 0, 0.375) solid !important;
+  border-left: 2px rgba(0, 0, 0, 0.375) solid !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  -webkit-animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+  animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+}
+
+@-webkit-keyframes immersive-translate-loading-animation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@keyframes immersive-translate-loading-animation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.immersive-translate-input-loading {
+  --loading-color: #f78fb6;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  margin: 12px auto;
+  position: relative;
+  color: white;
+  left: -100px;
+  box-sizing: border-box;
+  animation: immersiveTranslateShadowRolling 1.5s linear infinite;
+}
+
+@keyframes immersiveTranslateShadowRolling {
+  0% {
+    box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0),
+      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  12% {
+    box-shadow: 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0),
+      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  25% {
+    box-shadow: 110px 0 var(--loading-color), 100px 0 var(--loading-color),
+      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  36% {
+    box-shadow: 120px 0 var(--loading-color), 110px 0 var(--loading-color),
+      100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  50% {
+    box-shadow: 130px 0 var(--loading-color), 120px 0 var(--loading-color),
+      110px 0 var(--loading-color), 100px 0 var(--loading-color);
+  }
+
+  62% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color),
+      120px 0 var(--loading-color), 110px 0 var(--loading-color);
+  }
+
+  75% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
+      130px 0 var(--loading-color), 120px 0 var(--loading-color);
+  }
+
+  87% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
+      200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color);
+  }
+
+  100% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
+      200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.immersive-translate-modal {
+  position: fixed;
+  z-index: 2147483647;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+}
+
+.immersive-translate-modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 40px 24px 24px;
+  border-radius: 12px;
+  width: 350px;
+  font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .immersive-translate-modal-content {
+    margin: 25% auto !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .immersive-translate-modal-content {
+    width: 80vw !important;
+    margin: 20vh auto !important;
+    padding: 20px 12px 12px !important;
+  }
+
+  .immersive-translate-modal-title {
+    font-size: 14px !important;
+  }
+
+  .immersive-translate-modal-body {
+    font-size: 13px !important;
+    max-height: 60vh !important;
+  }
+
+  .immersive-translate-btn {
+    font-size: 13px !important;
+    padding: 8px 16px !important;
+    margin: 0 4px !important;
+  }
+
+  .immersive-translate-modal-footer {
+    gap: 6px !important;
+    margin-top: 16px !important;
+  }
+}
+
+.immersive-translate-modal .immersive-translate-modal-content-in-input {
+  max-width: 500px;
+}
+.immersive-translate-modal-content-in-input .immersive-translate-modal-body {
+  text-align: left;
+  max-height: unset;
+}
+
+.immersive-translate-modal-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.immersive-translate-modal-body {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .immersive-translate-modal-body {
+    max-height: 250px;
+    overflow-y: auto;
+  }
+}
+
+.immersive-translate-close {
+  color: #666666;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.immersive-translate-close:hover,
+.immersive-translate-close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.immersive-translate-modal-footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.immersive-translate-btn {
+  width: fit-content;
+  color: #fff;
+  background-color: #ea4c89;
+  border: none;
+  font-size: 14px;
+  margin: 0 8px;
+  padding: 9px 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.immersive-translate-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.immersive-translate-btn:hover {
+  background-color: #f082ac;
+}
+.immersive-translate-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.immersive-translate-btn:disabled:hover {
+  background-color: #ea4c89;
+}
+
+.immersive-translate-link-btn {
+  background-color: transparent;
+  color: #ea4c89;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+}
+
+.immersive-translate-cancel-btn {
+  /* gray color */
+  background-color: rgb(89, 107, 120);
+}
+
+.immersive-translate-cancel-btn:hover {
+  background-color: hsl(205, 20%, 32%);
+}
+
+.immersive-translate-action-btn {
+  background-color: transparent;
+  color: #ea4c89;
+  border: 1px solid #ea4c89;
+}
+
+.immersive-translate-btn svg {
+  margin-right: 5px;
+}
+
+.immersive-translate-link {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+  text-decoration: none;
+  color: #ea4c89;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+.immersive-translate-primary-link {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+  text-decoration: none;
+  color: #ea4c89;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+.immersive-translate-modal input[type="radio"] {
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.immersive-translate-modal label {
+  cursor: pointer;
+}
+
+.immersive-translate-close-action {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.imt-image-status {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 16px !important;
+}
+.imt-image-status img,
+.imt-image-status svg,
+.imt-img-loading {
+  width: 28px !important;
+  height: 28px !important;
+  margin: 0 0 8px 0 !important;
+  min-height: 28px !important;
+  min-width: 28px !important;
+  position: relative !important;
+}
+.imt-img-loading {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAtFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oK74hAAAAPHRSTlMABBMIDyQXHwyBfFdDMSw+OjXCb+5RG51IvV/k0rOqlGRM6KKMhdvNyZBz9MaupmxpWyj437iYd/yJVNZeuUC7AAACt0lEQVRIx53T2XKiUBCA4QYOiyCbiAsuuGBcYtxiYtT3f6/pbqoYHVFO5r+iivpo6DpAWYpqeoFfr9f90DsYAuRSWkFnPO50OgR9PwiCUFcl2GEcx+N/YBh6pvKaefHlUgZd1zVe0NbYcQjGBfzrPE8Xz8aF+71D8gG6DHFPpc4a7xFiCDuhaWgKgGIJQ3d5IMGDrpS4S5KgpIm+en9f6PlAhKby4JwEIxlYJV9h5k5nee9GoxHJ2IDSNB0dwdad1NAxDJ/uXDHYmebdk4PdbkS58CIVHdYSUHTYYRWOJblWSyu2lmy3KNFVJNBhxcuGW4YBVCbYGRZwIooipHsNqjM4FbgOQqQqSKQQU9V8xmi1QlgHqQQ6DDBvRUVCDirs+EzGDGOQTCATgtYTnbCVLgsVgRE0T1QE0qHCFAht2z6dLvJQs3Lo2FQoDxWNUiBhaP4eRgwNkI+dAjVOA/kUrIDwf3CG8NfNOE0eiFotSuo+rBiq8tD9oY4Qzc6YJw99hl1wzpQvD7ef2M8QgnOGJfJw+EltQc+oX2yn907QB22WZcvlUpd143dqQu+8pCJZuGE4xCuPXJqqcs5sNpsI93Rmzym1k4Npk+oD1SH3/a3LOK/JpUBpWfqNySxWzCfNCUITuDG5dtuphrUJ1myeIE9bIsPiKrfqTai5WZxbhtNphYx6GEIHihyGFTI69lje/rxajdh0s0msZ0zYxyPLhYCb1CyHm9Qsd2H37Y3lugVwL9kNh8Ot8cha6fUNQ8nuXi5z9/ExsAO4zQrb/ev1yrCB7lGyQzgYDGuxq1toDN/JGvN+HyWNHKB7zEoK+PX11e12G431erGYzwmytAWU56fkMHY5JJnDRR2eZji3AwtIcrEV8Cojat/BdQ7XOwGV1e1hDjGGjXbdArm8uJZtCH5MbcctVX8A1WpqumJHwckAAAAASUVORK5CYII=");
+  background-size: 28px 28px;
+  animation: image-loading-rotate 1s linear infinite !important;
+}
+
+.imt-image-status span {
+  color: var(--bg-2, #fff) !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+  font-weight: 500 !important;
+  font-family: "PingFang SC", Arial, sans-serif !important;
+}
+
+.imt-primary-button {
+  display: flex;
+  padding: 12px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #ea4c89;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.imt-retry-text {
+  color: #999;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.imt-action-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.imt-modal-content-text {
+  text-align: left;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@keyframes image-loading-rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.imt-linear-gradient-text {
+  background: linear-gradient(90deg, #00a6ff 0%, #c369ff 52.4%, #ff4590 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.imt-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imt-linear-black-btn {
+  border-radius: 50px;
+  background: linear-gradient(66deg, #222 19%, #696969 94.25%);
+  height: 48px;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+</style></head>
+  <body class="" data-render-url="//viewscreen.githubusercontent.com" data-github-hostname="github.com" data-deploy-env="production" data-client-timeout-attempts="30" data-github-docs-hostname="https://docs.github.com">
+    <div class="render-shell js-render-shell">
+      <div class="mermaid-view "><div class="mermaid"><svg id="diagram" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="flowchart" style="max-width: 1735.125px;" viewBox="-40 -40 1735.125 950.953125" role="graphics-document document" aria-roledescription="flowchart-v2" height="950.953125" preserveAspectRatio="xMinYMin"><style>#diagram{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#ccc;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#diagram .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#diagram .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#diagram .error-icon{fill:#a44141;}#diagram .error-text{fill:#ddd;stroke:#ddd;}#diagram .edge-thickness-normal{stroke-width:1px;}#diagram .edge-thickness-thick{stroke-width:3.5px;}#diagram .edge-pattern-solid{stroke-dasharray:0;}#diagram .edge-thickness-invisible{stroke-width:0;fill:none;}#diagram .edge-pattern-dashed{stroke-dasharray:3;}#diagram .edge-pattern-dotted{stroke-dasharray:2;}#diagram .marker{fill:lightgrey;stroke:lightgrey;}#diagram .marker.cross{stroke:lightgrey;}#diagram svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#diagram p{margin:0;}#diagram .label{font-family:"trebuchet ms",verdana,arial,sans-serif;color:#ccc;}#diagram .cluster-label text{fill:#F9FFFE;}#diagram .cluster-label span{color:#F9FFFE;}#diagram .cluster-label span p{background-color:transparent;}#diagram .label text,#diagram span{fill:#ccc;color:#ccc;}#diagram .node rect,#diagram .node circle,#diagram .node ellipse,#diagram .node polygon,#diagram .node path{fill:#1f2020;stroke:#ccc;stroke-width:1px;}#diagram .rough-node .label text,#diagram .node .label text,#diagram .image-shape .label,#diagram .icon-shape .label{text-anchor:middle;}#diagram .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#diagram .rough-node .label,#diagram .node .label,#diagram .image-shape .label,#diagram .icon-shape .label{text-align:center;}#diagram .node.clickable{cursor:pointer;}#diagram .root .anchor path{fill:lightgrey!important;stroke-width:0;stroke:lightgrey;}#diagram .arrowheadPath{fill:lightgrey;}#diagram .edgePath .path{stroke:lightgrey;stroke-width:2.0px;}#diagram .flowchart-link{stroke:lightgrey;fill:none;}#diagram .edgeLabel{background-color:hsl(0, 0%, 34.4117647059%);text-align:center;}#diagram .edgeLabel p{background-color:hsl(0, 0%, 34.4117647059%);}#diagram .edgeLabel rect{opacity:0.5;background-color:hsl(0, 0%, 34.4117647059%);fill:hsl(0, 0%, 34.4117647059%);}#diagram .labelBkg{background-color:rgba(87.75, 87.75, 87.75, 0.5);}#diagram .cluster rect{fill:hsl(180, 1.5873015873%, 28.3529411765%);stroke:rgba(255, 255, 255, 0.25);stroke-width:1px;}#diagram .cluster text{fill:#F9FFFE;}#diagram .cluster span{color:#F9FFFE;}#diagram div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:12px;background:hsl(20, 1.5873015873%, 12.3529411765%);border:1px solid rgba(255, 255, 255, 0.25);border-radius:2px;pointer-events:none;z-index:100;}#diagram .flowchartTitleText{text-anchor:middle;font-size:18px;fill:#ccc;}#diagram rect.text{fill:none;stroke-width:0;}#diagram .icon-shape,#diagram .image-shape{background-color:hsl(0, 0%, 34.4117647059%);text-align:center;}#diagram .icon-shape p,#diagram .image-shape p{background-color:hsl(0, 0%, 34.4117647059%);padding:2px;}#diagram .icon-shape .label rect,#diagram .image-shape .label rect{opacity:0.5;background-color:hsl(0, 0%, 34.4117647059%);fill:hsl(0, 0%, 34.4117647059%);}#diagram .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#diagram .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#diagram :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g><marker id="diagram_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker><marker id="diagram_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker><marker id="diagram_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></circle></marker><marker id="diagram_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></circle></marker><marker id="diagram_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"></path></marker><marker id="diagram_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"></path></marker><g class="root"><g class="clusters"></g><g class="edgePaths"><path d="M871.289,86L871.289,90.167C871.289,94.333,871.289,102.667,871.289,110.333C871.289,118,871.289,125,871.289,128.5L871.289,132" id="L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_A_B_0" data-points="W3sieCI6ODcxLjI4OTA2MjUsInkiOjg2fSx7IngiOjg3MS4yODkwNjI1LCJ5IjoxMTF9LHsieCI6ODcxLjI4OTA2MjUsInkiOjEzNn1d" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M871.289,214L871.289,218.167C871.289,222.333,871.289,230.667,871.289,238.333C871.289,246,871.289,253,871.289,256.5L871.289,260" id="L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_B_C_0" data-points="W3sieCI6ODcxLjI4OTA2MjUsInkiOjIxNH0seyJ4Ijo4NzEuMjg5MDYyNSwieSI6MjM5fSx7IngiOjg3MS4yODkwNjI1LCJ5IjoyNjR9XQ==" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M871.289,342L871.289,346.167C871.289,350.333,871.289,358.667,871.289,366.333C871.289,374,871.289,381,871.289,384.5L871.289,388" id="L_C_D_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_C_D_0" data-points="W3sieCI6ODcxLjI4OTA2MjUsInkiOjM0Mn0seyJ4Ijo4NzEuMjg5MDYyNSwieSI6MzY3fSx7IngiOjg3MS4yODkwNjI1LCJ5IjozOTJ9XQ==" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M779.586,515.25L666.504,534.7C553.422,554.151,327.258,593.052,214.176,616.003C101.094,638.953,101.094,645.953,101.094,649.453L101.094,652.953" id="L_D_E_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_E_0" data-points="W3sieCI6Nzc5LjU4NTgxMjQ3NzgyMiwieSI6NTE1LjI0OTg3NDk3NzgyMn0seyJ4IjoxMDEuMDkzNzUsInkiOjYzMS45NTMxMjV9LHsieCI6MTAxLjA5Mzc1LCJ5Ijo2NTYuOTUzMTI1fV0=" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M785.317,520.981L711.376,539.477C637.435,557.972,489.554,594.963,415.613,616.958C341.672,638.953,341.672,645.953,341.672,649.453L341.672,652.953" id="L_D_F_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_F_0" data-points="W3sieCI6Nzg1LjMxNzE5NzEwNTY4MzksInkiOjUyMC45ODEyNTk2MDU2ODM5fSx7IngiOjM0MS42NzE4NzUsInkiOjYzMS45NTMxMjV9LHsieCI6MzQxLjY3MTg3NSwieSI6NjU2Ljk1MzEyNX1d" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M798.609,534.273L764.604,550.553C730.598,566.833,662.588,599.393,628.583,619.173C594.578,638.953,594.578,645.953,594.578,649.453L594.578,652.953" id="L_D_G_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_G_0" data-points="W3sieCI6Nzk4LjYwODU5MTE1NDU4NDEsInkiOjUzNC4yNzI2NTM2NTQ1ODQxfSx7IngiOjU5NC41NzgxMjUsInkiOjYzMS45NTMxMjV9LHsieCI6NTk0LjU3ODEyNSwieSI6NjU2Ljk1MzEyNX1d" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M871.289,606.953L871.289,611.12C871.289,615.286,871.289,623.62,871.289,631.286C871.289,638.953,871.289,645.953,871.289,649.453L871.289,652.953" id="L_D_H_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_H_0" data-points="W3sieCI6ODcxLjI4OTA2MjUsInkiOjYwNi45NTMxMjV9LHsieCI6ODcxLjI4OTA2MjUsInkiOjYzMS45NTMxMjV9LHsieCI6ODcxLjI4OTA2MjUsInkiOjY1Ni45NTMxMjV9XQ==" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M943.224,535.018L975.922,551.174C1008.621,567.33,1074.017,599.642,1106.716,619.297C1139.414,638.953,1139.414,645.953,1139.414,649.453L1139.414,652.953" id="L_D_I_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_I_0" data-points="W3sieCI6OTQzLjIyMzc2Mjc1NTQ3NTEsInkiOjUzNS4wMTg0MjQ3NDQ1MjQ5fSx7IngiOjExMzkuNDE0MDYyNSwieSI6NjMxLjk1MzEyNX0seyJ4IjoxMTM5LjQxNDA2MjUsInkiOjY1Ni45NTMxMjV9XQ==" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M956.249,521.994L1025.397,540.32C1094.546,558.647,1232.843,595.3,1301.992,617.127C1371.141,638.953,1371.141,645.953,1371.141,649.453L1371.141,652.953" id="L_D_J_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_J_0" data-points="W3sieCI6OTU2LjI0ODYzNTgxOTIzODIsInkiOjUyMS45OTM1NTE2ODA3NjE4fSx7IngiOjEzNzEuMTQwNjI1LCJ5Ijo2MzEuOTUzMTI1fSx7IngiOjEzNzEuMTQwNjI1LCJ5Ijo2NTYuOTUzMTI1fV0=" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M961.77,516.472L1064.238,535.719C1166.706,554.966,1371.642,593.459,1474.11,616.206C1576.578,638.953,1576.578,645.953,1576.578,649.453L1576.578,652.953" id="L_D_K_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_D_K_0" data-points="W3sieCI6OTYxLjc3MDI2ODM5Mzc2OTcsInkiOjUxNi40NzE5MTkxMDYyMzAzfSx7IngiOjE1NzYuNTc4MTI1LCJ5Ijo2MzEuOTUzMTI1fSx7IngiOjE1NzYuNTc4MTI1LCJ5Ijo2NTYuOTUzMTI1fV0=" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M101.094,734.953L101.094,739.12C101.094,743.286,101.094,751.62,190.583,764.851C280.073,778.082,459.053,796.211,548.542,805.276L638.032,814.34" id="L_E_L_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_E_L_0" data-points="W3sieCI6MTAxLjA5Mzc1LCJ5Ijo3MzQuOTUzMTI1fSx7IngiOjEwMS4wOTM3NSwieSI6NzU5Ljk1MzEyNX0seyJ4Ijo2NDIuMDExNzE4NzUsInkiOjgxNC43NDM1MTI2OTQ2NjY1fV0=" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M341.672,734.953L341.672,739.12C341.672,743.286,341.672,751.62,391.071,763.867C440.469,776.114,539.267,792.274,588.665,800.355L638.064,808.435" id="L_F_L_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_F_L_0" data-points="W3sieCI6MzQxLjY3MTg3NSwieSI6NzM0Ljk1MzEyNX0seyJ4IjozNDEuNjcxODc1LCJ5Ijo3NTkuOTUzMTI1fSx7IngiOjY0Mi4wMTE3MTg3NSwieSI6ODA5LjA4MDcyNzAwODcyNTh9XQ==" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M594.578,734.953L594.578,739.12C594.578,743.286,594.578,751.62,602.981,759.673C611.383,767.727,628.188,775.5,636.59,779.387L644.993,783.274" id="L_G_L_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_G_L_0" data-points="W3sieCI6NTk0LjU3ODEyNSwieSI6NzM0Ljk1MzEyNX0seyJ4Ijo1OTQuNTc4MTI1LCJ5Ijo3NTkuOTUzMTI1fSx7IngiOjY0OC42MjMyMjk5ODA0Njg4LCJ5Ijo3ODQuOTUzMTI1fV0=" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M871.289,734.953L871.289,739.12C871.289,743.286,871.289,751.62,862.887,759.673C854.484,767.727,837.679,775.5,829.277,779.387L820.874,783.274" id="L_H_L_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_H_L_0" data-points="W3sieCI6ODcxLjI4OTA2MjUsInkiOjczNC45NTMxMjV9LHsieCI6ODcxLjI4OTA2MjUsInkiOjc1OS45NTMxMjV9LHsieCI6ODE3LjI0Mzk1NzUxOTUzMTIsInkiOjc4NC45NTMxMjV9XQ==" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M1139.414,734.953L1139.414,739.12C1139.414,743.286,1139.414,751.62,1087.48,763.964C1035.545,776.307,931.676,792.661,879.741,800.838L827.807,809.015" id="L_I_L_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_I_L_0" data-points="W3sieCI6MTEzOS40MTQwNjI1LCJ5Ijo3MzQuOTUzMTI1fSx7IngiOjExMzkuNDE0MDYyNSwieSI6NzU5Ljk1MzEyNX0seyJ4Ijo4MjMuODU1NDY4NzUsInkiOjgwOS42Mzc1NTQwMjU4NDEyfV0=" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path><path d="M1371.141,734.953L1371.141,739.12C1371.141,743.286,1371.141,751.62,1280.59,764.867C1190.039,778.114,1008.937,796.275,918.386,805.356L827.836,814.436" id="L_J_L_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" data-edge="true" data-et="edge" data-id="L_J_L_0" data-points="W3sieCI6MTM3MS4xNDA2MjUsInkiOjczNC45NTMxMjV9LHsieCI6MTM3MS4xNDA2MjUsInkiOjc1OS45NTMxMjV9LHsieCI6ODIzLjg1NTQ2ODc1LCJ5Ijo4MTQuODM1Mzk0MDUyMDkzfV0=" marker-end="url(#diagram_flowchart-v2-pointEnd)"></path></g><g class="edgeLabels"><g class="edgeLabel"><g class="label" data-id="L_A_B_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_B_C_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_C_D_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_E_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_F_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_G_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_H_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_I_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_J_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_D_K_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_E_L_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_F_L_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_G_L_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_H_L_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_I_L_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel"><g class="label" data-id="L_J_L_0" transform="translate(0, 0)"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="edgeLabel"></span></div></foreignobject></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-0" transform="translate(871.2890625, 47)"><rect class="basic label-container" style="" x="-88.4375" y="-39" width="176.875" height="78"></rect><g class="label" style="" transform="translate(-58.4375, -24)"><rect></rect><foreignobject width="116.875" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>zerotrace.py<br>Main Entry Point</p></span></div></foreignobject></g></g><g class="node default" id="flowchart-B-1" transform="translate(871.2890625, 175)"><rect class="basic label-container" style="" x="-85.125" y="-39" width="170.25" height="78"></rect><g class="label" style="" transform="translate(-55.125, -24)"><rect></rect><foreignobject width="110.25" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>Platform Check<br>Windows Only</p></span></div></foreignobject></g></g><g class="node default" id="flowchart-C-3" transform="translate(871.2890625, 303)"><rect class="basic label-container" style="" x="-99.6484375" y="-39" width="199.296875" height="78"></rect><g class="label" style="" transform="translate(-69.6484375, -24)"><rect></rect><foreignobject width="139.296875" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>System Recon<br>IP, GeoIP, Hardware</p></span></div></foreignobject></g></g><g class="node default" id="flowchart-D-5" transform="translate(871.2890625, 499.4765625)"><polygon points="107.4765625,0 214.953125,-107.4765625 107.4765625,-214.953125 0,-107.4765625" class="label-container" transform="translate(-106.9765625, 107.4765625)"></polygon><g class="label" style="" transform="translate(-68.4765625, -24)"><rect></rect><foreignobject width="136.953125" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>Launch All Steal<br>Modules in Threads</p></span></div></foreignobject></g></g><g class="node default" id="flowchart-E-7" transform="translate(101.09375, 695.953125)"><rect class="basic label-container" style="" x="-93.09375" y="-39" width="186.1875" height="78"></rect><g class="label" style="" transform="translate(-63.09375, -24)"><rect></rect><foreignobject width="126.1875" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>🖥️ System Info<br>HW/SW Inventory</p></span></div></foreignobject></g></g><g class="node default" id="flowchart-F-9" transform="translate(341.671875, 695.953125)"><rect class="basic label-container" style="" x="-97.484375" y="-39" width="194.96875" height="78"></rect><g class="label" style="" transform="translate(-67.484375, -24)"><rect></rect><foreignobject width="134.96875" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>🔑 Discord Tokens<br>From 30+ Browsers</p></span></div></foreignobject></g></g><g class="node default" id="flowchart-G-11" transform="translate(594.578125, 695.953125)"><rect class="basic label-container" style="" x="-105.421875" y="-39" width="210.84375" height="78"></rect><g class="label" style="" transform="translate(-75.421875, -24)"><rect></rect><foreignobject width="150.84375" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>💉 Discord Injection<br>Persistent JS Payload</p></span></div></foreignobject></g></g><g class="node default" id="flowchart-H-13" transform="translate(871.2890625, 695.953125)"><rect class="basic label-container" style="" x="-121.2890625" y="-39" width="242.578125" height="78"></rect><g class="label" style="" transform="translate(-91.2890625, -24)"><rect></rect><foreignobject width="182.578125" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>🔓 Browser Steal<br>Passwords/Cookies/Cards</p></span></div></foreignobject></g></g><g class="node default" id="flowchart-I-15" transform="translate(1139.4140625, 695.953125)"><rect class="basic label-container" style="" x="-96.8359375" y="-39" width="193.671875" height="78"></rect><g class="label" style="" transform="translate(-66.8359375, -24)"><rect></rect><foreignobject width="133.671875" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>🎮 Roblox Cookies<br>Account Takeover</p></span></div></foreignobject></g></g><g class="node default" id="flowchart-J-17" transform="translate(1371.140625, 695.953125)"><rect class="basic label-container" style="" x="-84.890625" y="-39" width="169.78125" height="78"></rect><g class="label" style="" transform="translate(-54.890625, -24)"><rect></rect><foreignobject width="109.78125" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>📸 Screenshot<br>Screen Capture</p></span></div></foreignobject></g></g><g class="node default" id="flowchart-K-19" transform="translate(1576.578125, 695.953125)"><rect class="basic label-container" style="" x="-70.546875" y="-39" width="141.09375" height="78"></rect><g class="label" style="" transform="translate(-40.546875, -24)"><rect></rect><foreignobject width="81.09375" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>🚀 Startup<br>Persistence</p></span></div></foreignobject></g></g><g class="node default" id="flowchart-L-21" transform="translate(732.93359375, 823.953125)"><rect class="basic label-container" style="" x="-90.921875" y="-39" width="181.84375" height="78"></rect><g class="label" style="" transform="translate(-60.921875, -24)"><rect></rect><foreignobject width="121.84375" height="48"><div xmlns="http://www.w3.org/1999/xhtml" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"><span class="nodeLabel"><p>Discord Webhook<br>Exfiltration</p></span></div></foreignobject></g></g></g></g></g></svg></div></div>
+    </div>
+  
+
+<div class="mermaid-viewer-control-panel"><button class="btn zoom-in" aria-label="Zoom in"><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-zoom-in" aria-hidden="true"><path d="M3.75 7.5a.75.75 0 0 1 .75-.75h2.25V4.5a.75.75 0 0 1 1.5 0v2.25h2.25a.75.75 0 0 1 0 1.5H8.25v2.25a.75.75 0 0 1-1.5 0V8.25H4.5a.75.75 0 0 1-.75-.75Z"></path><path d="M7.5 0a7.5 7.5 0 0 1 5.807 12.247l2.473 2.473a.749.749 0 1 1-1.06 1.06l-2.473-2.473A7.5 7.5 0 1 1 7.5 0Zm-6 7.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z"></path></svg></button><button class="btn zoom-out" aria-label="Zoom out"><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-zoom-out" aria-hidden="true"><path d="M4.5 6.75h6a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1 0-1.5Z"></path><path d="M0 7.5a7.5 7.5 0 1 1 13.307 4.747l2.473 2.473a.749.749 0 1 1-1.06 1.06l-2.473-2.473A7.5 7.5 0 0 1 0 7.5Zm7.5-6a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z"></path></svg></button><button class="btn reset" aria-label="Reset view"><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-sync" aria-hidden="true"><path d="M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z"></path></svg></button><button class="btn up" aria-label="Pan up"><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-chevron-up" aria-hidden="true"><path d="M3.22 10.53a.749.749 0 0 1 0-1.06l4.25-4.25a.749.749 0 0 1 1.06 0l4.25 4.25a.749.749 0 1 1-1.06 1.06L8 6.811 4.28 10.53a.749.749 0 0 1-1.06 0Z"></path></svg></button><button class="btn down" aria-label="Pan down"><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-chevron-down" aria-hidden="true"><path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path></svg></button><button class="btn left" aria-label="Pan left"><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-chevron-left" aria-hidden="true"><path d="M9.78 12.78a.75.75 0 0 1-1.06 0L4.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L6.06 8l3.72 3.72a.75.75 0 0 1 0 1.06Z"></path></svg></button><button class="btn right" aria-label="Pan right"><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-chevron-right" aria-hidden="true"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"></path></svg></button></div><div class="mermaidTooltip" style="opacity: 0; position: absolute; text-align: center; max-width: 200px; padding: 2px; font-size: 12px; background: rgb(255, 255, 222); border: 1px solid rgb(51, 51, 51); border-radius: 2px; pointer-events: none; z-index: 100;"></div></body></html>
