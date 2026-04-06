@@ -1,13 +1,11 @@
-<img align="center" src="ZeroTrace-Logo.png" width="100%"> 
-
-<h1 align="center">ZeroTrace - Multi-Tools</h1>
+<h1 align="center">Zero Trace</h1>
 
 <p align="center">
- <a href="https://zerotrace.tools">Website</a> ・ <a href="https://www.trustpilot.com/review/zerotrace.tools">Reviews</a>
+ <a href="https://github.com/o9-9">o9</a>
 </p>
 
 <p align="center">
-  <img src="https://github.com/Blackeige/ZeroTrace-Tools/blob/main/ZeroTrace-1.png?raw=true">
+  <img src="img/preview.png?raw=true">
 </p>
 
 <p>
@@ -24,7 +22,7 @@
 <h1 align="center">Tools</h1>
 
 <p align="center">
-  <img src="Img/ZeroTrace-1.png" width="49%"> 
+  <img src="img/preview.png" width="49%"> 
   
 </p>
 
